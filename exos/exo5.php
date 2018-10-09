@@ -15,66 +15,6 @@ require_once '../inc/functions.php';
  */
 
 
-class Hero {
-    private $name;
-    private $color;
-    private $lives = 3;
-    private $big = false;
-    private $star = false;
-
-    public function __construct($name, $color) {
-        $this->name = $name;
-        $this->color = $color;
-    }
-
-    public function hello() {
-        return "It's me, " . $this->name. "!";
-    }
-
-    public function getLives() {
-        return $this->lives;
-    }
-
-    public function getColor() {
-        return $this->color;
-    }
-
-    public function isBig() {
-        return $this->big;
-    }
-
-    public function eatMushroom() {
-        $this->big = true;
-    }
-
-    public function takeHit() {
-        if (!$this->star) {
-            if ($this->big) {
-                $this->big = false;
-            }
-            else {
-                $this->lives--;
-            }
-        }
-    }
-
-    public function up() {
-        $this->lives++;
-    }
-
-    public function receiveStar() {
-        $this->star = true;
-    }
-
-    public function vanishStar() {
-        $this->star = false;
-    }
-
-    public function hasStar() {
-        return $this->star;
-    }
-}
-
 
 
 /*

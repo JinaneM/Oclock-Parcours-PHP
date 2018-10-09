@@ -30,34 +30,6 @@ require_once '../inc/functions.php';
  */
 
 
-class Hero {
-    private $lives;
-    public $name;
-
-    public function __construct($name) {
-        $this->lives = 3;
-        $this->name = $name;
-    }
-
-    public function getLives() {
-        return $this->lives;
-    }
-
-    public function takeHit() {
-        $this->lives--;
-    }
-
-    public function up() {
-        $this->lives++;
-    }
-
-    public function hello() {
-        return 'It\'s me, '.$this->name.'!';
-    }
-}
-
-
-
 
 
 

@@ -19,19 +19,6 @@ require_once '../inc/functions.php';
  *      echo $mario->lives; // Fatal Error
  */
 
-class Mario {
-    private $lives;
-
-    public function __construct() {
-        $this->lives = 3;
-    }
-
-    public function getLives() {
-        return $this->lives;
-    }
-}
-
-
 
 
 
