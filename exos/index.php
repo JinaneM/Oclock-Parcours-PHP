@@ -133,6 +133,36 @@ include('../inc/functions.php') ?>
 					<span class="tag">constructor</span>
 				</div>
 			</article>
+			<article class="exo">
+				<div class="summary">
+					<div class="category">Base de données</div>
+					<h2>Quiz</h2>
+				</div>
+				<div class="info">
+					<h3>Notions</h3>
+					<span class="tag">table</span>
+                    <span class="tag">champs</span>
+					<span class="tag">types de champ</span>
+                    <span class="tag">clé primaire</span>
+                    <span class="tag">auto-incrémentation</span>
+                    <span class="tag">clé étrangère</span>
+                    <span class="tag">SQL</span>
+				</div>
+                <div class="info">
+                    <h3>Ressources</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://sql.sh/cours/select">SQL SELECT</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://sql.sh/cours/where">SQL WHERE</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://dev.mysql.com/doc/refman/8.0/en/select.html">Doc MySQL - SELECT</a>
+                        </li>
+                    </ul>
+                </div>
+			</article>
         </section>
 
 	</main>

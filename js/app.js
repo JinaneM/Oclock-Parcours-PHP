@@ -4,6 +4,7 @@ var exos = [
   {nav: '#3', title: 'Exo #3', file: 'exo3.php'},
   {nav: '#4', title: 'Exo #4', file: 'exo4.php'},
   {nav: '#5', title: 'Exo Bonus #5', file: 'exo5.php'},
+  {nav: '#6', title: 'Quiz #6', file: 'https://goo.gl/forms/GkM5RPvInobMZI0D3'},
 ];
 
 var app = {
