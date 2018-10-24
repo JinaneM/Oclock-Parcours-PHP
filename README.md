@@ -1,4 +1,4 @@
-# Le Parcours :fire: POO & base de données
+# Le Parcours :fire: PHP (POO)
 
 Démarrage dans le fichier `exos/index.php`
 
