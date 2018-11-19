@@ -38,23 +38,18 @@ require_once '../inc/functions.php';
 class Mario {
     private $lives = 3;
 
-
     public function getLives() {
         
         return $this->lives;
     }
 
-   
     public function takeHit() {
        return $this->lives = $this->getLives() - 1;
     }
  
-
     public function up() {
         return $this->lives = $this->getLives() + 1;
     }
-
-
 }
 
 
