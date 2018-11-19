@@ -29,8 +29,33 @@ require_once '../inc/functions.php';
  *      echo $luigi->getLives(); // Display: 4
  */
 
+class Hero {
+    private $lives = 3;
+    private $name;
+    public function __construct($name) {
+        $this->name = $name;
+    }
 
 
+    public function getLives() {
+        
+        return $this->lives;
+    }
+
+    public function takeHit() {
+       return $this->lives = $this->getLives() - 1;
+    }
+ 
+    public function up() {
+        return $this->lives = $this->getLives() + 1;
+    }
+
+    public function hello() {
+        return 'It\'s me, '.$this->name.'!';
+    }
+}
+
+    
 
 
 /*
