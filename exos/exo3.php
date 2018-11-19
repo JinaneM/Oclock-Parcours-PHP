@@ -38,31 +38,24 @@ require_once '../inc/functions.php';
 class Mario {
     private $lives = 3;
 
+
     public function getLives() {
+        
         return $this->lives;
     }
 
    
     public function takeHit() {
-        return $this->getLives() - 1;
+       return $this->lives = $this->getLives() - 1;
     }
+ 
 
     public function up() {
-        return $this->takeHit() + 1;
+        return $this->lives = $this->getLives() + 1;
     }
 
 
 }
-
-$mario = new Mario();
-$mario->getLives();
-$mario->takeHit();
-$mario->up();
-
-var_dump(checkExo3($mario));
-var_dump($mario->takeHit());
-var_dump($mario->up());
-
 
 
 /*
