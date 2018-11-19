@@ -27,7 +27,10 @@ require_once '../inc/functions.php';
  *      echo $mario->lives; // Display: 3
  */
 
-
+class Mario {
+    
+    public $lives = 3;
+}
 
 
 

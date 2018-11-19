@@ -19,7 +19,13 @@ require_once '../inc/functions.php';
  *      echo $mario->lives; // Fatal Error
  */
 
+class Mario {
+    private $lives = 3;
 
+    public function getLives() {
+        return $this->lives;
+    }
+}
 
 
 
